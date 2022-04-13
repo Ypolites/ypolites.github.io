@@ -1,0 +1,257 @@
+
+/* ----------------------------------------   POLICES  ---------------------------------------- */
+
+/* Police : Source Sans Pro : Regular */
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-sans-pro_regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/source-sans-pro_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/source-sans-pro_regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/source-sans-pro_regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/source-sans-pro_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/source-sans-pro_regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+  }
+ /* Police : Source Sans Pro : 900 (Black) */
+  @font-face {
+    font-family: 'Source Sans Pro Black';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/source-sans-pro-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/source-sans-pro_900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/source-sans-pro_900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/source-sans-pro_900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/source-sans-pro_900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/source-sans-pro_900.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+  }
+/* Police : Montserrat : Regular*/
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat_regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat_regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat_regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat_regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+/* ----------------------------------------   STYLES GENERAUX  ---------------------------------------- */
+
+* {
+    margin: 0;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Source Sans Pro Black', Fallback, sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Source Sans Pro Black', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0 0 -30px 20%;
+    z-index: 10;
+}
+
+h3 {
+    font-size: larger;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black', sans-serif;
+    letter-spacing: 0.1em;
+    padding: 0 10px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    letter-spacing: 0.15em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    color: white;
+    background-color: #005543;
+    padding: 15px;
+}
+
+/* ----------------------------------------   BANNER  ---------------------------------------- */
+
+.banner {
+    background-color: white;
+}
+.banner-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.banner-subcontainer {
+    border:  red 1px solid;
+    display: inline-block;
+}
+
+.logo img  {
+    border: red 1px solid;
+    margin: 10px 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+/* ----------------------------------------   HEADER  ---------------------------------------- */
+
+.header {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 150px;
+}
+
+.devise {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black', sans-serif;
+}
+
+/* ----------------------------------------   MAIN  ---------------------------------------- */
+
+.image {
+    height: 400px;
+    z-index: 0;
+}
+
+.droite .image {
+    float: right;
+}
+
+.gauche .image {
+    float: left;
+}
+
+.description {
+    height: 300px;
+    padding: 50px;
+    margin: 0;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.droite .description {
+    text-align: right;
+}
+
+.amo {
+    background-color: gainsboro;
+}
+
+/* ----------------------------------------   FOOTER  ---------------------------------------- */
+
+/* Adresse et Réseaux sociaux footer */
+
+footer {
+    color: white;
+    background-color: #282828;
+    padding: 40px 0 0 0;
+
+}
+
+.footer-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-subcontainer {
+    border: red 1px solid;
+    width: 32%;
+    display: inline-block;
+}
+
+footer h3 {
+    border-left: 5px solid #005543;
+}
+
+.liste-service {
+    display: inline-block;
+}
+
+i {
+    font-size: larger;
+    padding: 15px;
+    background-color: #005543;
+    transition: .5s;
+}
+
+i:hover {
+    background-color: white;
+    color: #005543;
+}
+
+.adresse {
+    width: 21%;;
+    margin: auto;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.contact {
+    margin-bottom: 40px;
+}
+
+/* Mention légales du footer */
+
+.mentions-legales-container {
+    margin-top: 30px;
+    background-color: black;
+}
+
+.mentions-legales {
+    border: red 1px solid;
+    width: 1200px;
+    margin: auto;
+    padding: 5px 0;
+    font-size: smaller;
+}
+
+.ml {
+    width: fit-content;
+    padding: 0 30px;
+    text-align: center;
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+.cr {
+    text-align: right;
+    display: inline;
+}
