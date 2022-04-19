@@ -90,18 +90,6 @@ li {
     font-size: smaller;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-}
-
-a:hover {
-    color: white;
-    background-color: #005543;
-    padding: 15px;
-}
-
 /* ----------------------------------------   BANNER  ---------------------------------------- */
 
 .banner {
@@ -128,6 +116,18 @@ header h1 {
 
 nav li {
     display: inline-block;
+}
+
+.banner a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.banner a:hover {
+    color: white;
+    background-color: #005543;
+    padding: 15px;
 }
 
 
@@ -179,8 +179,7 @@ nav li {
 
 /* ----------------------------------------   FOOTER  ---------------------------------------- */
 
-/* Adresse et Réseaux sociaux footer */
-
+/* Style Généraux du Footer */
 footer {
     color: white;
     background-color: #282828;
@@ -193,17 +192,54 @@ footer {
 }
 
 .footer-subcontainer {
-    border: red 1px solid;
-    width: 32%;
     display: inline-block;
+    vertical-align: top;
 }
 
 footer h3 {
     border-left: 5px solid #005543;
 }
 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+/* Présentation du Footer*/
+.logo-int {
+    padding-bottom: 15px;
+}
+.presentation {
+    width: 50%;
+}
+
+/* Services du Footer*/
+.services {
+    margin-right: 50px;
+}
 .liste-service {
     display: inline-block;
+}
+ol {
+    list-style-type: none;
+    line-height: 1.7;
+}
+.ls-1 li:nth-child(1):before {content: "location_city";font-family: 'Material Icons';}
+.ls-1 li:nth-child(2):before {content: "water_drop";font-family: 'Material Icons';}
+.ls-1 li:nth-child(3):before {content: "edit_road";font-family: 'Material Icons';}
+.ls-1 li:nth-child(4):before {content: "local_fire_department";font-family: 'Material Icons';}
+
+.ls-2 li:nth-child(1):before {content: "factory";font-family: 'Material Icons';}
+.ls-2 li:nth-child(2):before {content: "grass";font-family: 'Material Icons';}
+.ls-2 li:nth-child(3):before {content: "view_in_ar";font-family: 'Material Icons';}
+.ls-2 li:nth-child(4):before {content: "electric_bolt";font-family: 'Material Icons';}
+
+/* Reaseaux Sociaux du Footer*/
+.reseau-sociaux {
+    text-align: right;
 }
 
 i {
@@ -218,15 +254,21 @@ i:hover {
     color: #005543;
 }
 
+/*Contact et Adresse du Footer */
+.footer-contact {
+    margin-top: 50px;
+}
+
 .adresse {
     width: 21%;;
     margin: auto;
     padding: 0 20px;
     display: inline-block;
     line-height: 1.7;
+    vertical-align: top;
 }
 
-/* Mention légales du footer */
+/* Mention légales du Footer */
 
 .mentions-legales-container {
     background-color: black;
