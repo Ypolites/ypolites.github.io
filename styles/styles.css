@@ -2,10 +2,10 @@
 /* Site Stylesheet
   1. POLICES
   2. STYLES GENERAUX
-  3. Structure Styles
-  4. Module Styles
-  5. Component Styles
-  6. Page Styles */
+  3. BANNER
+  4. HEADER
+  5. MAIN
+  6. FOOTER */
 
 /* ---------------------------------------- 1.  POLICES  ---------------------------------------- */
 
@@ -108,17 +108,14 @@ em {
     font-style: normal;
 }
 
-/* ----------------------------------------   TEST BOUTON  ---------------------------------------- */
 
-
-
-/* ----------------------------------------   BANNER  ---------------------------------------- */
+/* ----------------------------------------   3. BANNER  ---------------------------------------- */
 
 .banner-background {
     background-image: url(../media/Banner.png);
 }
 .banner-container {
-    width: 1200px;
+    /*width: 1200px;*/
     margin: auto;
     padding: 10px 0;
 }
@@ -146,9 +143,6 @@ nav a:hover {
     padding: 15px;
 }
 
-/* Animation Menu Principal */
-
-
 /* Bouton Appeler */
 
 .appeler {
@@ -168,58 +162,17 @@ nav a:hover {
 
 /* Animation Bouton Appeler 
 
-.btn-1 {
-  background: darken(red, 1.5%);
-  font-weight: 100;
-  
-  svg {
-    height: 45px;
-    left: 0;
-    position: absolute;
-    top: 0; 
-    width: 100%; 
-  }
-  
-  rect {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 2;
-    stroke-dasharray: 422, 0;
-    transition: all 0.35s linear;
-  }
-}
 
-.btn-1:hover {
-  background: rgba(red, 0);
-  font-weight: 900;
-  letter-spacing: 1px;
-  
-  rect {
-    stroke-width: 5;
-    stroke-dasharray: 15, 310;
-    stroke-dashoffset: 48;
-    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-}
-*/
-
-
-/* ----------------------------------------   HEADER  ---------------------------------------- */
+/* ----------------------------------------   4. HEADER  ---------------------------------------- */
 
 /* Bannière du Site */
 
-.header {
+.devise-presentation {
     background-image: url(../media/Header.png);
+    height: 350px;
     width: 100%;
     color: white;
-}
-
-.devise-presentation {
-    vertical-align: top;
-    margin-top: 95px;
-    padding-left: 25px;
-    width: 60%;
-    display: inline-block;
+    padding: 95px;
 }
 
 .devise {
@@ -236,10 +189,10 @@ nav a:hover {
 }
 
 .cherche {
-    background-image: url(../media/Cherche.png);
+    background-color: aqua;
     padding: 1.4%;
     width: 30%;
-    display: inline-block;
+    float: right;
 }
 
 .aider {
@@ -254,7 +207,7 @@ nav a:hover {
 .recherche {
     color: black;
     font-size: larger;
-    padding: 18px 0;
+    padding: 50px 0;
     text-align: right;
 }
 
@@ -298,7 +251,7 @@ nav a:hover {
     text-align: center;
 }
 
-/* ----------------------------------------   MAIN  ---------------------------------------- */
+/* ----------------------------------------   5. MAIN  ---------------------------------------- */
 
 .image {
     height: 400px;
@@ -326,7 +279,7 @@ nav a:hover {
     text-align: right;
 }
 
-/* ----------------------------------------   FOOTER  ---------------------------------------- */
+/* ----------------------------------------   6. FOOTER  ---------------------------------------- */
 
 /* Style Généraux du Footer */
 footer {
