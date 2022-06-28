@@ -1,284 +1,80 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Google</title>
+</head>
+<body>
 
-<html lang="fr-fr">
+  <header>
 
-  <head>
-    <title>BIM by INTEGRALE</title>
-    <link rel="stylesheet" type="text/css" href="styles\styles.css" >
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
+    <nav>
+      <ul class="menu-header">
+        <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+        <li><a href="https://www.google.com/imghp?hl=fr&ogbl">Images</a></li>
+        <li><a href="https://www.google.com/intl/fr/about/products"><svg class="petits-points" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg></a></li>
+        <li><button class="connexion">Connexion</button></li>
+      </ul>
+    </nav>
 
-  <body> 
+  </header>
 
-<!-- ______________HEADER_______________ -->
 
-    <header role="banner">
+  <section class="main">
 
-      <div class="cherche">
-        <div class="je-suis">
-          <p class="aider">Comment pouvons-nous<br><em>vous aider ?</em></p>
-        </div>
-        <div class="recherche amo-bim">
-          <a>Je suis Maitre de l'Ouvrage<br>à la recherche d'un accompagnement BIM</a>
-        </div>
-        <div class="recherche bim-manager">
-          <a>Je cherche un partenaire BIM pour notre groupement</a>
-        </div>
-        <div class="recherche consultant-bim">
-          <a>Nous cherchons un consultant pour nous accompagner<br>dans notre transition BIM</a>
-        </div>
-        <div class="recherche coordinateur-bim">
-          <a>Je souhaite mettre en place une cellule de synthèse 3D BIM</a>
-        </div>
-        <div class="recherche projeteur-bim">
-          <a>Je cherche un prestataire pour<br>modéliser des maquettes</a>
-        </div>
-      </div>
+    <img class="logo" src="Logo.png" alt="Le logo de Google">
 
-      <div class="banner-background">
-        <div class="banner-container">
+    <div class="barre-recherche">
+      <svg class="loupe" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+      </svg>
+      <input type="text">
+    </div>
+    
+    <div class="boutons">
+      <button class="bouton">Recherche Google</button>
+      <button class="bouton">J'ai de la chance</button>
+    </div>
+    <p>Google est disponible en : <a href="https://www.google.com/">English</a></p>
 
-          <div class="banner-subcontainer logo">
-            <img  src="media\logo-int-noir-small.png"
-            alt="logo d'Integrale">
-          </div>
-  
-          <div class="banner-subcontainer menu">
-            <nav>
-              <ul>
-                <li><h3><a href="#apropos">Acceuil</a></h3></li>
-                <li><h3><a href="#credits">Nos Services</a></h3></li>
-                <li><h3><a href="#projets">Nos Projets</a></h3></li>
-                <li><h3><a href="#carriere">Carrière</a></h3></li>
-                <li><h3><a href="#contact">Contact</a></h3></li>
-              </ul>
-            </nav>
-          </div>
-  
-          <div class="banner-subcontainer telephone" class="btn btn-1">
-            <a class="appeler"
-                    href="tel:+262 262 24 59 63">
-                    <span class="material-icons">phone</span>
-                    +262 262 24 59 63
-          </a>
-            
-          </div>
-  
-        </div>
-      </div>
+  </section>
 
-      <div class="devise-presentation">
-        <p class="devise">Le BIM au service<br>du bâti tropical</p>
-        <p class="presentation">Bureau d'étude spécialise en ingénierie des batiments commerciaux et industriels en milieu tropical, leader dans l'Océan Indien.</p>
-      </div>
+  <footer>
 
-      <div class="container-services">
-        <ul class="menu-services">
-          <li class="service"><h5><a href="#amo-bim">AMO BIM</a></h5></li>
-          <li class="service"><h5><a href="#bim-management">BIM Management</a></h5></li>
-          <li class="service"><h5><a href="#bim-consulting">BIM Consulting</a></h5></li>
-          <li class="service"><h5><a href="#modelisation">Modélisation 3D</a></h5></li>
-          <li class="service"><h5><a href="#synthese">Synthèse 3D</a></h5></li>
+    <div class="top-footer">
+      <p>France</p>
+    </div>
+
+    <div class="bottom-footer">
+      <div>
+        <ul class="footer-menu gauche">
+          <li><a href="https://about.google/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a></li>
+          <li><a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a></li>
+          <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a></li>
+          <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne Google ?</a></li>
         </ul>
       </div>
 
-    </header>
-
-<!-- ______________MAIN_______________ -->
-
-    <main>
-
-
-      <div class="amo gauche" id="amo-bim">
-
-        <h2>AMO BIM</h2>
-
-        <img  class="image amo"
-              src="media\amo-bim.png"
-              alt="une photo de personnes travaillant dans un bureau">
-
-        <p class="description">Vous êtes Maitre d'Ouvrage ? L'AMO BIM vous assiste sur tous les sujets BIM de votre projet, de la programmation jusqu'à l'exploitation. Se faire accompagner par un spécialiste du BIM c'est s'assurer de réceptionner des maquettes BIM utiles et exploitables, qui correspondent réellement à vos besoins. L'AMO BIM définit vos exigences BIM de manière détaillées, réalistes et atteignables pour la MOE et les entreprises. L'AMO BIM est le spécialiste BIM qui consolide l'atteinte des objectifs BIM de votre projet.</p>
-
+      <div class="carbone">
+        <img class="feuille" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiKyuGn5M_4AhWYilwKHRYGBtMQiM8HCA8&url=https%3A%2F%2Fsustainability.google%2Fintl%2Ffr%2Fcarbon-free%2F%3Futm_source%3Dgooglehpfooter%26utm_medium%3Dhousepromos%26utm_campaign%3Dbottom-footer%26utm_content%3D&usg=AOvVaw0vpsAf8M2EpeKIdUA4Edzy">Neutre en carbone depuis 2007</a>
       </div>
 
-      <div class="management droite" id="bim-management">
-
-        <h2>BIM Management</h2>
-
-        <img  class="image management"
-              src="media\bim-management.png"
-              alt="un groupe de personne travaillant autour d'une table">
-
-        <p class="description">Vous recherchez un BIM Manager pour votre groupement ? Nous assurons les missions BIM Management sur tout type de projet de construction. Notre approche bienveillante et inclusive du BIM est celle du BIM Manager "facilitateur". En donnant les "règles du jeu BIM" via la Convention BIM, il fluidifie la collaboration BIM dans le groupement. Il assure que le travail sur les maquettes se fasse dans des conditions optimales pour chacun en tenant compte des contraintes BIM de tous. Pour la MOA il est le garant de la qualité des livrables BIM.</p>
-
+      <div>
+        <ul class="footer-menu droit">
+          <li><a href="https://support.google.com/legal/answer/3110420?hl=fr&fg=1">Siganler un contenu inappropré</a></li>
+          <li><a href="https://support.google.com/websearch/answer/7585859?hl=fr&fg=1&visit_id=637920033896243252-3506806626&p=fr_consumer_info&rd=1">Info consomateur</a></li>
+          <li><a href="https://policies.google.com/privacy?hl=fr&fg=1">Confidentialité</a></li>
+          <li><a href="https://policies.google.com/terms?hl=fr&fg=1">Conditions</a></li>
+          <li><a href="">Paramètres</a></li>
+        </ul>
       </div>
+    </div>
 
-      <div class="strategie gauche" id="bim-consulting">
-
-        <h2>Aide à la transition BIM</h2>
-
-        <img  class="image strategie"
-              src="media\strategie-bim.png"
-              alt="une capture d'écran d'un logiciel de synthèse 3D">
-
-        <p class="description"> Besoin d'aide pour passer au BIM ? Une transition BIM ce n'est pas seulement changer d'outil, c'est rationaliser ses méthodes de travail : notre consultant vous accompagne tous au long de la transition BIM de votre société. Nous nous appuyons sur les méthodes éprouvées de conduite du changement : audit préliminaire, définition des stratégies et de la feuille de route BIM, formations et mise à niveau des collaborateurs, déploiement des outils, pilotage du changement et mise en place d'indicateurs.</p>
-
-      </div>
-
-      <div class="developpement droite">
-
-        <h2>Développement BIM</h2>
-
-        <img  class="image developpement"
-              src="media\developpement-bim.png"
-              alt="un devellopeur devant des écrans">
-
-        <p class="description">Notre philosophie du BIM : "ce sont nos outils qui doivent s'adapter à notre métier et pas notre métier qui doit s'adapter à nos outils !". Nous développons donc en interne des solutions logiciels pour répondre à nos enjeux d'automatisation, de contrôlequalité, de passerelles entre logiciels... Plus que simples utilisateurs nous sommes acteurs et créateurs de nos outils numériques. </p>
-
-      </div>
-
-      <div class="synthese gauche" id="synthese">
-
-        <h2>Synthèse 3D BIM</h2>
-
-        <img  class="image synthese-3d"
-              src="media\strategie-bim.png"
-              alt="une capture d'écran d'un logiciel de synthèse 3D">
-
-        <p class="description">Nous assurons les missions de cellule de synthèse BIM : nous coordonnons les maquettes 3D de tous le lots en nous appuyant sur des outils et des méthodes collaboratives et Open BIM (IFC, BCF, etc)</p>
-
-      </div>
-
-      <div class="formation droite">
-
-        <h2>Formation BIM</h2>
-
-        <img  class="image formation"
-              src="media\formation-bim.png"
-              alt="trois personnes entrian de se former">
-
-        <p class="description">Nous formons aussi bien aux processus BIM qu'à ces outils. Notre certification Qualiopi vous permet d'obtenir des fonds de financements publics.</p>
-
-      </div>
-
-      <div class="modelisation gauche" id="modelisation">
-
-        <h2>Modélisation 3D</h2>
-
-        <img  class="image modelisation"
-              src="media\modelisation-bim.png"
-              alt="une personne entrain de modéliser une maquette sur son ordinateur">
-
-        <p class="description">Besoin de modéliser une maquette 3D ? De réaliser une vidéo d'animation 3D ou une visite virtuelle de votre maquette ? Nos prestataires partenaires modélisent vos maquettes BIM à partir de plan 2D ou de nuages de points. Ils réalisent vos projets d'archiviz' et de VR.</p>
-
-      </div>
-
-    </main>
-
-<!-- ______________FOOTER_______________ -->
-
-    <footer>
-
-      <div class="footer-container">
-        <div class="footer-logo-services-res">
-
-          <div class="footer-subcontainer presentation">
-            <img class="logo-int"
-            src="media\logo-int-blanc-small.png"
-            alt="le logo de la société integrale">
-          <p>INTÉGRALE Ingénierie est un bureau d’études généralistes du bâtiment qui regroupe environ 70 collaborateurs au sein de 4 établissements répartis dans l’Océan Indien.</p>
-          </div>
-  
-        <div class="footer-subcontainer services">
-          <h3>services</h3>
-          <div class="liste-service ls-1">
-            <ol>
-              <li><a> Structure</a></li>
-              <li><a> Fluides</a></li>
-              <li><a> VRD</a></li>
-              <li><a> Sécurité Incendie</a></li>
-            </ol>
-          </div>
-          <div class="liste-service ls-2">
-            <ol>
-              <li><a> Industrie</a></li>
-              <li><a> QEB</a></li>
-              <li><a> BIM</a></li>
-              <li><a> MDE</a></li>
-            </ol>
-          </div>
-          
-  
-        </div>
-  
-        <div class="footer-subcontainer reseau-sociaux">
-          <h3>suivez-nous</h3>
-          <i class="material-icons">air</i>
-          <i class="material-icons">factory</i>
-        </div>
-  
-        </div>
-  
-        <div class="footer-contact">
-  
-          <h3>contats</h3>
-  
-          <div class="adresse reunion">
-            <h4>INTÉGRALE Ingénierie</h4>
-            <ul>
-              <li>4 bis rue fond de Génèrese 97435 Saint-Gilles-Les-Hauts - La Réunion</li>
-              <li><a href="tel:+262 262 24 59 63">+262 262 24 59 63</a></li>
-              <li><a href="mailto:direction@integrale.re">direction@integrale.re</a></li>
-              <li>siret 479 379 158 00039</li>
-            </ul>
-          </div>
-  
-          <div class="adresse maurice">
-            <h4>CANOPÉE Engineering Ltd</h4>
-            <ul>
-              <li>44 avenue des Palmiers 72238 Questres-Bornes - Maurice</li>
-              <li><a href="tel:+230 463 22 00">+230 463 22 00</a></li>
-              <li><a href="mailto:contact@canopee-eng.com">contact@canopee-eng.com</a></li>
-              <li>BRN C15132568</li>
-            </ul>
-          </div>
-  
-          <div class="adresse nomade">
-            <h4>NOMADE Ingénierie</h4>
-            <ul>
-              <li>Les jardins d'Ivandry, App n°21, bat C</li>
-              <li><a href="tel:+261 34 51 654 95">+261 34 51 654 95</a></li>
-              <li><a href="mailto:contact@nomade.mg">contact@nomade.mg</a></li>
-              <li>NIF 5002291861</li>
-            </ul>
-          </div>
-  
-          <div class="adresse mayotte">
-            <h4>INTÉGRALE Mayotte</h4>
-            <ul>
-              <li>7 rue Bambocolo Koungou - Mayotte</li>
-              <li><a href="tel:+262 692 09 25 47">+262 692 09 25 47</a></li>
-              <li><a href="mailto:direction@integrale.re">direction@integrale.re</a></li>
-              <li>siret 479 379 158 00054</li>
-            </ul>
-          </div>
-  
-        </div>
-      </div>
-
-      <div class="mentions-legales-container">
-        <div class="mentions-legales">
-          <p class="ml">Mentions légales</p>
-          <p class="ml">Politique de confidentialité</p>
-          <p class="ml">Plan du Site</p>
-          <p class="cr">Copyright 2021 INTÉGRALE Ingénierie. Tous droits réservés. Created by BAM.</p>
-        </div>
-      </div>
-
-
-
-    </footer>
-
-  </body>
-
+   </footer>
+    
+</body>
 </html>
